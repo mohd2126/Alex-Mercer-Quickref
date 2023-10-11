@@ -1,7 +1,7 @@
-dnd5e-quickref
+D&D5e-quickref with homebrew
 ==============
 
-Quick reference sheet for D&amp;D 5e
+Quick reference sheet for D&amp;D 5e that includes Alex Mercer's homebrew
 
 
 Icons
@@ -10,11 +10,19 @@ Icons
 All icons are provided by http://game-icons.net/
 
 
-FAQ
+Info
 ===
 
-#### Q: I have found a layout issue or a major issue in one of the core items, what should I do? ####
-A: Open an issue at https://github.com/crobi/dnd5e-quickref/issues. Even better: fork the project, fix the problem, and post a pull request.
+This is a quick reference for 5e that includes Alex Mercer's Homebrew.
+[C] stands for changed, the change could be to the whole thing or part of it, [N] stands for new
+AlMe stands for Alex Mercer (not Aluminum Methyl :p), it'll mostly be used in stuff that was partially changed to differentiate between vanilla and the changes.
+Abilities that can be used by either an Action or a Bonus Action were placed with Bonus Actions
+This is meant to help you remember the rules, do not use it to argue them with the DM. 
+https://mohd2126.github.io/Alex-Mercer-Quickref/quickref.html 
 
-#### Q: I have an idea for a minor tweak, such as adding actions specific for my character. How do I modify the content of the sheet? ####
-A: Open the subfolder called `js`, and edit one of the `data` files. Ask your local computer geek for help if you don't know how to edit those.
+
+
+Credit
+===
+
+This is a modified version of Corbi's 5e quick reference his original code can be found here https://github.com/crobi/dnd5e-quickref
