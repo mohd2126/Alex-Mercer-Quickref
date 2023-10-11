@@ -7,10 +7,8 @@ data_action = [
         reference: "PHB, pgs. 192,194-195. + AlMe homebrew",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
+            "When you take the attack action and attack with a light melee weapon that you are holding in one hand, as part of that action you can make one additional attack with a different light melee weapon that you are holding in the other hand. <br>You do not add your ability modifier to the damage of the second light weapon, unless that modifier is negative. <br>If either weapon has the thrown property, you can throw the weapon instead of making a melee attack with it.",
             "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers.",
             "AlMe Power Attack:<br>  When you use the <b>attack action</b> to make a melee weapon attack using a weapon or unarmed strike, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage."
         ]
     },
