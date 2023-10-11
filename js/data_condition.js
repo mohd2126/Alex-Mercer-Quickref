@@ -61,7 +61,7 @@ data_condition = [
         reference: "PHB, pg. 290.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated. <br> The condition also ends if you are removed from the reach of your grappler."
+            "The condition ends if your grappler is incapacitated. <br> The condition also ends if you are removed from the reach of your grappler.",
             "When one creature is grappling a target and another creature tries to move the target out of reach either by grappling it and moving away or shoving, the outcome is determined not just by a contested check between the second creature and the target, but also by a contested Athletics check between the first and the second creature."
         ]
     },
