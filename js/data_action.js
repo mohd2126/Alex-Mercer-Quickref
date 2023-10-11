@@ -19,11 +19,8 @@ data_action = [
         description: "Attempt to grab a creature or wrestle with it",
         reference: "PHB, pg. 195. + AlMe homebrew",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0).",
-            "AlMe Special grapples:<br> Special Grapples are grapples and other physical interactions that are supposed to accomplish things such as, silencing a spellcaster by holding their mouth shut, disarming someone, choking someone until they are unconscious and so on. For these special interactions than can have far greater effects than the grappled condition, the following rules apply:<br> <br>The target of your special grapple must be no more than one size larger than you and must be within your reach. As an action, you try to seize the target and inflict a certain condition or achieve a certain effect by making a grapple check, roll a Strength (Athletics) check with disadvantage contested by the target’s Strength (Athletics) or Dexterity (Acrobatics) check with advantage (the target chooses the ability to use). If you succeed, you subject the target to the desired condition or achieve the desired effect. Whether you can use this action against a target and whether you need one or two free hands depends on the anatomy of the target and your size relative to it."
+            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. <br> The target of your grapple must be no more than one size larger than you, and it must be within your reach. <br> Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). <br> If you succeed, you subject the target to the grappled condition (its speed is set to 0).",
+            "AlMe Special grapples:<br> Special Grapples are grapples and other physical interactions that are supposed to accomplish things such as: silencing a spellcaster by holding their mouth shut, disarming someone, choking someone until they are unconscious and so on. For these special interactions that can have far greater effects than the grappled condition, the following rules apply:<br> <br>The target of your special grapple must be no more than one size larger than you and must be within your reach. As an action, you try to seize the target and inflict a certain condition or achieve a certain effect by making a grapple check, roll a Strength (Athletics) check with disadvantage contested by the target’s Strength (Athletics) or Dexterity (Acrobatics) check with advantage (the target chooses the ability to use). If you succeed, you subject the target to the desired condition or achieve the desired effect. Whether you can use this action against a target and whether you need one or two free hands depends on the anatomy of the target and your size relative to it."
         ]
     },
     {
@@ -33,10 +30,7 @@ data_action = [
         description: "Shove a creature, either to knock it prone or push it away from you",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you.",
+            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. <br> The target of your shove must be no more than one size larger than you, and it must be within your reach. <br> You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). <br> If you win the contest, you either knock the target prone or push it 5 feet away from you.",
             "<b>Shove Aside:</b><br>With this option, a creature uses the special shove attack from the Player's Handbook to force a target to the side, rather than away. The attacker has disadvantage on its Strength (Athletics) check when it does so. If that check is successful, the attacker moves the target 5 feet to a different space within its reach."
         ]
     },
@@ -47,7 +41,7 @@ data_action = [
         description: "Cast a spell with a casting time of 1 action",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
+            "You can't cast a spell with your action and a different spell with your bonus action in the same turn, except if the bonus action is used to cast a cantrip.",
             "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
             "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
             "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
@@ -56,7 +50,7 @@ data_action = [
     {
         title: "Dash",
         icon: "sprint",
-        subtitle: "Double movement speed",
+        subtitle: "Increase movement speed",
         description: "Gain extra movement for the current turn",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -159,11 +153,8 @@ data_action = [
         description: "Choose a trigger and a response reaction",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration",
-            "Homebrew: you can use your action on subsequent turns to continue holding a spell or action that you readied"
+            "First, you decide what perceivable circumstance will trigger your reaction. <br> Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. <br> When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
+            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
         ]
     },
     {
@@ -183,9 +174,7 @@ data_action = [
         description: "Stop a dying creature from needing to make death saving throws",
         reference: "PHB, pg. 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Make a Wisdom (Medicine) check with DC 10 <br> On a success, the creature is stable and no longer needs to make death saving throws <br> A stable creature regains 1 hit point after 1d4 hours"
         ]
     },
     {
