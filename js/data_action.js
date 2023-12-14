@@ -7,7 +7,7 @@ data_action = [
         reference: "PHB, pgs. 192,194-195. + AlMe homebrew",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
+            "As part of the Attack Action, you may replace one or more of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
             "AlMe Two-Weapon Fighting: <br> When you take the attack action and attack with a light melee weapon that you are holding in one hand, as part of that action you can make one additional attack with a different light melee weapon that you are holding in the other hand. <br>You do not add your ability modifier to the damage of the second light weapon, unless that modifier is negative. <br>If either weapon has the thrown property, you can throw the weapon instead of making a melee attack with it.",
             "AlMe Power Attack:<br>  When you use the <b>attack action</b> to make a melee weapon attack using a weapon or unarmed strike, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage."
         ]
@@ -120,7 +120,7 @@ data_action = [
         reference: "PHB, pgs. 144-146.",
         bullets: [
             "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "Armor takes several minutes to equip(1,5,10) or unequip(1,1,5)."
         ]
     },
     {
