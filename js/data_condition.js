@@ -188,7 +188,7 @@ data_condition = [
             "Rolling a 20 immediately causes you to regain 1 hit point.",
             "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
             "Once stable, you regain 1 hit point after 1d4 hours.",
-            "AlMe:<br>When a player character reaches 0 hit points and becomes unstable because of it, they gain one level of exhaustion."
+            "AlMe:<br>When a player character reaches 0 hit points and becomes unstable because of it, they gain one level of exhaustion. A character can avoiding gaining a level of exhaustion this way by spending 2 hit dice."
         ]
     },
     {
